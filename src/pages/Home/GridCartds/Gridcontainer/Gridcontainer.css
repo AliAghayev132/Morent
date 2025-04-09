@@ -1,0 +1,267 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,320px);
+    grid-template-rows: 400px 400px;
+   grid-gap: 13.2px;
+   grid-row-gap: 30px ;
+   
+    
+   }
+   
+   
+   
+   
+     /* cars */
+   
+     .Carts__Grid{
+   
+   
+       width:  100%;
+       height: 100%;
+       max-width: 315px;
+       max-height:388px ;
+       background-color: rgba(255,255,255);
+       padding: 20px;
+       border-radius: 10px;
+   
+   
+     }
+   
+     .Carts__top__tex__icons__Grid{
+     display: flex;
+     justify-content: space-between;
+     }
+     
+     
+   
+     
+     .text__name__Cars__RentCar{
+       color: rgb(26,32,44);
+       font-size:clamp(1rem, 0.886rem + 0.4vw, 1.25rem);
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-weight: 700;
+       text-align: left;
+       
+     }
+   
+     .text__sport__Cars{
+       color: rgb(144,163,191);
+       font-size: clamp(0.75rem, 0.693rem + 0.2vw, 0.875rem);
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-weight: 700;
+       text-align: left;
+     }
+   
+     
+     .box__img__icons__Cars{
+     margin-top: 50px;
+   
+    
+     }
+   
+   
+     .box__img__cars__avt{
+       text-align: center;
+       margin-bottom: 52px;
+     }
+   
+   
+     .box__img__cars__avt img{
+      width: 100%;
+      max-width: 220px;
+      min-height: 100px;
+      height: 100%;
+     }
+   
+     .box__icons__big__All{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       gap: 16px
+   
+     }
+   
+   
+     .iconsAll__Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+   
+     }
+   
+   
+     .Manual_texTT,
+     .People_texTT,  
+     .Number__refill__L {
+       font-family: "Plus Jakarta Sans", sans-serif;
+       color: rgb(144,163,191);
+       font-size: clamp(0.75rem, 0.614rem + 0.29vw, 0.875rem);
+       font-weight: 500;
+     }
+     
+   .big__button__daysS__Mani{
+   margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   
+   .days__dolor__99{
+    font-size: clamp(1rem, 0.867rem + 0.43vw, 1.25rem);
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    color: rgb(26,32,44);
+     text-align: left;
+   }
+   
+   
+   
+   
+   .daySs__texT{
+     font-size: clamp(0.75rem, 0.684rem + 0.21vw, 0.875rem);
+     font-family: "Plus Jakarta Sans";
+     font-weight: 700;
+     color: rgb(144,163,191);
+      text-align: left;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   .button__rent__Mow__Cars{
+    width: clamp(6.25rem, 5.556rem + 1.88vw, 7.25rem);
+    height: clamp(2.25rem, 1.903rem + 0.94vw, 2.75rem);
+    background-color: rgb(53,99,233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+   }
+   
+   .button__rent__Mow__Cars a {
+     font-size: clamp(0.75rem, 0.617rem + 0.43vw, 1rem);
+     font-family: "Plus Jakarta Sans";
+     font-weight: 600;
+     text-align: center;
+     color: rgb(255,255,255);
+    }
+   
+    .day_Dolor__100{
+     color: rgb(144,163,191);
+     font-size: clamp(0.75rem, 0.684rem + 0.21vw);
+     font-family: "Plus Jakarta Sans";
+     font-weight: 700;
+     text-align: left;
+     text-decoration-line: line-through;
+    }
+   
+
+ /* cars */
+
+
+
+
+
+
+ /* @media screen and (max-width: 1340px){
+    .grid{
+    
+      grid-template-columns: repeat(4,auto);
+     
+     
+     }
+   }
+
+
+
+ */
+
+
+
+
+
+    
+   @media screen and (max-width: 979px)and (min-width: 679px) {
+    .grid{
+      grid-template-columns: repeat(auto);
+      justify-content: center;
+     }
+   }
+
+
+
+
+   @media screen and (max-width: 683px) {
+    .box__img__icons__Cars{
+    display: flex;
+    margin-top: 32px;
+    
+ 
+    }
+
+    .box__img__cars__avt{
+   
+      margin-bottom: 22px;
+    }
+    
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,650px);
+      grid-row-gap: 20px ;
+      grid-template-rows: auto ;
+      justify-items: center;
+     }
+
+     .Carts__Grid{
+      width:  100%;
+      max-width: 415px;
+    
+    }
+    .box__img__cars__avt img{
+     width: 190px;
+  
+    }
+
+    .box__icons__big__All{
+    flex-direction: column;
+    margin-left: 60px;
+    }
+    }
+
+
+
+   
+
+
+
+    @media screen and (max-width: 488px) {
+      .grid{
+      
+        justify-items: start;
+       }
+    }
+
+
+
+
+    @media screen and (max-width: 370px) {
+      .box__icons__big__All{
+    
+        margin-left: 20px;
+        }
+    }

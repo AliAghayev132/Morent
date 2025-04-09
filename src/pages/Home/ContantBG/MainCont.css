@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: rgba(246, 247, 249);
+}
+
+/* Big__container__Ads basladi */
+
+.Big__container__Ads {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 10px 0px;
+  gap: 3%;
+}
+
+.box__Ads1 {
+  background-image: url("../../../assets/img/Ads1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(74, 150, 231);
+  box-sizing: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: clamp(327px, 100%, 640px);
+  max-height: 351px;
+}
+
+.box__Ads2 {
+  background-image: url("../../../assets/img/Ads2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: clamp(327px, 100%, 640px);
+  max-height: 351px;
+  box-sizing: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: rgb(53, 99, 233);
+}
+
+.box__Ads__text2 {
+  padding: 24px 0px 0px 24px;
+  width: 299px;
+  height: 224px;
+}
+
+.text__ads {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-align: left;
+  line-height: 150%;
+  letter-spacing: -3%;
+  font-size: clamp(1rem, 0.737rem + 1.4vw, 2rem);
+}
+
+.text__par {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-align: left;
+  line-height: 150%;
+  letter-spacing: -2%;
+  padding-top: 16px;
+  font-size: clamp(0.75rem, 0.684rem + 0.35vw, 1rem);
+}
+
+.btn__Click_Rental {
+  margin: 20px 0px;
+  background-color: rgb(84, 166, 255);
+  border: none;
+  border-radius: 4px;
+  padding: clamp(0.625rem, 0.879rem + -0.28vw, 0.813rem)
+    clamp(1.25rem, 1.842rem + -0.66vw, 1.688rem);
+}
+
+.btn__Click_Rental a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -2;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.colorBtn {
+  background-color: rgb(53, 99, 233);
+}
+
+.Car__rental__img {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Car__rental__img img {
+  
+  width: clamp(11.875rem, -1.392rem + 56.6vw, 21.25rem);
+}
+
+.Car__rental__img2 {
+  text-align: center;
+}
+
+.Car__rental__img2 img {
+  padding-top: 16px;
+
+  width: clamp(13.125rem, -3.679rem + 71.7vw, 25rem);
+}
+
+/* Big__container__Ads sonu */
+
+/* Locations__Date__Time baslad */
+
+.Locations__Date__Time {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Locations__Date__Time__container {
+  width: clamp(327px, 100%, 582px);
+
+  padding: 24px 48px 28px 48px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.pickup {
+  margin-bottom: 16px;
+}
+
+.radio {
+  display: flex;
+}
+
+.box__input__rgba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 70px;
+  background-color: rgb(53, 99, 233, 0.3);
+}
+
+.Input__radio {
+  width: 12px;
+  height: 12px;
+}
+
+.checkmark {
+  color: rgba(26, 32, 44);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  list-style: 150%;
+}
+
+.Location__big__box {
+  width: clamp(285px, 100%, 482px);
+  height: clamp(40px, 100%, 48px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solid{
+ 
+    width: 23px;
+ border-right: 2px solid rgba(155, 145, 132, 0.148);
+}
+
+
+
+
+.Location {
+  width: clamp(74px, 100%, 162px);
+  height: clamp(40px, 100%, 48px);
+  display: flex;
+}
+
+
+.Location__box {
+    width: clamp(4.875rem, 1.075rem + 16.89vw, 7.25rem);
+    height: clamp(2.313rem, 1.712rem + 2.67vw, 2.688rem)
+  }
+
+
+.Location__text {
+  color: rgb(26, 32, 44);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.Select_text {
+  color: rgb(144, 163, 191);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.blue__Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(3.75rem, 4.088rem + -0.38vw, 4rem);
+  height: clamp(3.75rem, 4.088rem + -0.38vw, 4rem);
+  z-index: 1;
+  background-color: rgba(53, 99, 233);
+  border-radius: 10px;
+}
+
+/* Locations__Date__Time sonu */
+
+
+/* Container__Popular basladi */
+
+.Container__Popular{
+    width: 100%;
+    max-width: 1320px;
+    margin:  32px  auto 0px ;
+  
+}
+
+
+.box__text__Popular__Car__View{
+     display: flex;
+   justify-content: space-between;
+    
+   
+}
+
+
+.text__Popular{
+    padding: 10px 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(0.875rem, 0.733rem + 0.32vw, 1rem);
+    font-weight: 600;
+   
+    color: rgba(144,163,191);
+
+}
+
+.text__View{
+    padding: 10px 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(0.75rem, 0.467rem + 0.65vw, 1rem);
+    color: rbg(53,99,233);
+}
+
+
+
+
+
+
+
+/* Container__Popular sona catdi */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1340px) {
+  .box__Ads1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .Locations__Date__Time {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width:870px) {
+  .Big__container__Ads {
+    flex-wrap: wrap;
+  }
+
+
+  .Container__Popular{
+   
+    max-width: 710px;
+    
+  
+}
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 800px) {
+  .text__car {
+    display: none;
+  }
+  .box__Ads__text2 {
+    height: 194px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .box__Ads2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blue__Button {
+     margin: -10px;
+  }
+}

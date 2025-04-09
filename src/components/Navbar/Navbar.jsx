@@ -1,3 +1,5 @@
+import "./Navbar.jsx"
+
 const Navbar = () => { 
 
 };

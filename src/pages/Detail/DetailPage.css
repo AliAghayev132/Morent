@@ -1,0 +1,515 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container__Big {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: rgba(246, 247, 249);
+  display: flex;
+}
+
+/* input bas */
+
+.Nav__bar__side {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 360px;
+}
+
+.filter__container {
+   margin-top: 5px;
+  padding: 25px;
+}
+
+.input__headers{
+ padding-bottom: 25px;
+ color: rgb(144,163,191);
+ font-size: 12px;
+ font-weight: 600;
+ font-family: "Plus Jakarta Sans";
+}
+
+.about__the__car__text{
+  color: rgb(89,103,128);
+ font-size: 20px;
+ font-weight: 600;
+ font-family: "Plus Jakarta Sans";
+}
+
+.all__about__the__car__text__numbers{
+  color: rgb(144,163,191);
+ font-size: 20px;
+ font-weight: 600;
+ font-family: "Plus Jakarta Sans";
+}
+.filter {
+
+  margin-bottom: 20px;
+}
+
+.meter__ckeckbox{
+
+}
+
+label {
+  display: block;
+}
+
+.price-range{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.text__max{
+  color: rgb(89,103,128);
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+
+/* input bas */
+
+.container__left__Big {
+  width: 100%;
+  max-width: 1080px;
+}
+
+
+
+.Ads__container_car {
+  max-width: 1016px;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Box__Ads1 {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.Box__Ads2 {
+  width: 100%;
+}
+
+.Big__text_icons__tu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NisaanGT__text {
+  color: rgb(26, 32, 44);
+  font-size: clamp(1.25rem, 0.851rem + 1.28vw, 2rem);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.reviewer__text {
+  color: rgb(89, 103, 128);
+  font-family: "Plus Jakarta Sans";
+  font-size: clamp(0.75rem, 0.684rem + 0.21vw, 0.875rem);
+  font-weight: 500;
+}
+
+.reviwer__div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Text__Nissa__ds {
+  padding-bottom: 34px;
+  padding-top: 32px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.517rem + 0.74vw, 1.188rem);
+  color: rgb(89, 103, 128);
+  text-align: left;
+  line-height: 200%;
+  letter-spacing: -2%;
+}
+
+.SportTypeCar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ser {
+  color: rgb(144, 163, 191);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  line-height: 200%;
+  font-size: clamp(0.938rem, 0.805rem + 0.43vw, 1.188rem);
+}
+
+.black__re {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  line-height: 200%;
+  font-size: clamp(0.938rem, 0.805rem + 0.43vw, 1.188rem);
+}
+
+.big__button__day__mani__t {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day__mani__99__t {
+  font-size: clamp(1rem, 0.867rem + 0.43vw, 1.25rem);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  color: rgb(26, 32, 44);
+  text-align: left;
+}
+
+.day__tex__t {
+  font-size: clamp(0.75rem, 0.684rem + 0.21vw, 0.875rem);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  color: rgb(144, 163, 191);
+  text-align: left;
+}
+
+.button__rent__Mow__t {
+  width: clamp(6.25rem, 5.556rem + 1.88vw, 7.25rem);
+  height: clamp(2.25rem, 1.903rem + 0.94vw, 2.75rem);
+  background-color: rgb(53, 99, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.button__rent__Mow__t a {
+  font-size: clamp(0.75rem, 0.617rem + 0.43vw, 1rem);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.day__mani__100__t {
+  color: rgb(144, 163, 191);
+  font-size: clamp(0.75rem, 0.684rem + 0.21vw);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+
+/* cars */
+
+.box__Ads2__Payment {
+  background-image: url("../../../assets/img/Ads2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: clamp(327px, 100%, 640px);
+  max-height: 351px;
+  box-sizing: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: rgb(53, 99, 233);
+}
+
+.box__Ads__text2__Payment {
+  padding: 24px 0px 0px 24px;
+
+  height: 224px;
+}
+
+.text__ads__Payment {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-align: left;
+  line-height: 150%;
+  letter-spacing: -3%;
+  font-size: clamp(1rem, 0.737rem + 1.4vw, 2rem);
+}
+
+.text__par__Payment {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-align: left;
+  line-height: 150%;
+  letter-spacing: -2%;
+  padding-top: 16px;
+  font-size: clamp(0.75rem, 0.684rem + 0.35vw, 1rem);
+}
+
+.colorBtn__Payment__Payment {
+  background-color: rgb(53, 99, 233);
+}
+
+.Car__rental__img__Payment {
+  text-align: center;
+}
+
+.Car__rental__img__Payment img {
+  width: clamp(15.875rem, 7.694rem + 17.84vw, 23.75rem);
+}
+
+/* cars sonu */
+
+/* cars swiper 2 */
+
+.carts__catalog__van,
+.carts__catalog__box {
+  min-height: 388px;
+}
+
+.img__cars__meters {
+  margin-bottom: 52px;
+}
+.box__img__meters {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.img__cars__meters img {
+  width: 100%;
+  max-width: 220px;
+  min-height: 100px;
+  height: 100%;
+}
+
+/* cars swiper 2 */
+
+.box__Ads2__Bottom {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.img__ads {
+  margin-top: 20px;
+}
+
+.img__ads img {
+  width: 100%;
+}
+
+.text_reviews__Container {
+  max-width: 1016px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 32px auto 0;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.Review__13 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 6px;
+}
+
+.text__13__big {
+  color: rgb(255, 255, 255);
+  width: 44px;
+  height: 28px;
+  background-color: rgb(53, 99, 233);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Reviews__13__value {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(26, 32, 44);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.reviews__box__container__t {
+  max-width: 968px;
+  width: 100%;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.reviews__box__container {
+  max-width: 968px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.IMg__user__bigbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__july {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(144, 163, 191);
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.July {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo__name {
+  display: flex;
+  gap: 21px;
+}
+
+.user__name__tex {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(26, 32, 44);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -3;
+}
+
+.name__company {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(144, 163, 191);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.User__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph__container {
+  display: flex;
+  justify-content: right;
+}
+
+.text__container {
+  width: 100%;
+  max-width: 896px;
+}
+
+.paragraph {
+  color: rgb(89, 103, 128);
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.706rem + 0.19vw, 0.875rem);
+  line-height: 200%;
+  font-family: "Plus Jakarta Sans";
+}
+
+.reviews__box__container {
+  padding-top: 30px;
+}
+
+.div__button__e {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShowAll {
+  color: rgb(144, 163, 191);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+  font-family: "Plus Jakarta Sans";
+}
+
+.RecentCar__box_big {
+  max-width: 1016px;
+  width: 100%;
+  margin: 32px auto 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Rec__tex {
+  color: rgb(144, 163, 191);
+  font-size: clamp(0.875rem, 0.809rem + 0.21vw, 1rem);
+  padding: 0 20px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+}
+
+.View__texrr {
+  color: rgb(53, 99, 233);
+  font-size: clamp(0.875rem, 0.809rem + 0.21vw, 1rem);
+  padding: 0 20px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+}
+
+.swiper__box__car2,
+.swiper__box__car {
+  max-width: 1016px;
+  width: 100%;
+
+  margin: 10px auto 0;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+@media screen and ((max-width: 556px)) {
+  .carts__catalog__van {
+    min-height: 220px;
+  }
+  .carts__catalog__box {
+    min-height: 220px;
+  }
+}
+
+@media screen and ((max-width: 540px) and (min-width:450px)) {
+  .img__cars__meters img {
+    width: 80%;
+  }
+}
+
+@media screen and ((max-width: 700px)) {
+  .Ads__container_car {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and ((max-width: 1000px)) {
+  .box__Ads__text2__Payment {
+    height: 174px;
+  }
+}
+
+@media screen and ((max-width: 450px)) {
+  .box__Ads__text2__Payment {
+    height: 154px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .carts__catalog__box {
+    padding: 16px 3px;
+  }
+  .box__img__meters {
+    margin-top: 32px;
+  }
+
+  .img__cars__meters {
+    margin-bottom: 40px;
+  }
+}
